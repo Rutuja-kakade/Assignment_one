@@ -1,170 +1,163 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-}
-body{
-    margin: 10px 20px;
-}
 table , td ,tr{
-border: 1px solid black;
-border-collapse: collapse;
-
-}
-th{
-text-align: center;
-}
-.tableheading{
-background-color: aqua;
-font-weight: bold;
-font-size: 20px;
-
-}
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+    }
+    .container{
+    margin: 25px 50px 25px 50px;
+        width:1500px;
+    
+    }
+        .view{
+          width: 1200px;
+          height: 100px;
+          align-items: center;
+        }
+        .view1{
+            font-size: 12px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            height: 80px;
+                font-family:  Calibri-Bold_db;
+        }
+        .in{
+    text-align: center;
+        }
+        /*Second table*/
+        .t1{
+            width: 580px;
+        }
+        .se{
+        font-size: 12px;
+        font-family: Calibri-Bold_db;
+        color: black;
+    }
+    .se1{
+        font-size: 9px;
+        font-family: Calibri-BoldItalic_dj;
+        color: #0A0A0A;
+    
+      
+    }
+    .se2{
+      
+        font-size: 9px;
+        font-family: Calibri-Italic_dl;
+        color: #3B3838;
+    }
+    .seh{
+      font-size: 12px;
+        font-family: Calibri_df;
+        color: #000;
+    }
+        .fe{
+        font-size: 17px;
+        font-family: Calibri-Bold_db;
+        color: black;}
+        .te{
+          text-align: center;
+        font-size: 12px;
+        font-family: Calibri-Italic_dl;
+        color: #7E7E7E;
+        }
+        .Author{
+            width: 500px;
+    height: 10px;
+    align-items: center;
+          
+        font-size: 11px;
+        font-family: Calibri_df;
+        color: #000;
+    }
+    .signature{
+        align-items: center;
+        width: 400px;
+        height: 60px;
+          
+        font-size: 11px;
+        font-family:Calibri-Bold_db;
+        color: #000;
+    }
+    .sign{
+        width: 1200px;
+        height: 80px;
+          font-size: 11px;
+        font-family: Calibri_df;
+        color: #000;
+    }
+        
+        .fe{
+          
+        font-size: 12px;
+        font-family: Calibri-Bold_db;
+        color: #000;
+        }
+        .signature{
+        width: 1450px;
+        height: 25px;
+    }
+    .heading{
+      background-color:		#6C9DC6;
+    }
+    .heading1{
+    background-color:#6C9DC6;
+    }
+    .block{
+    display: block;
+    border: 3px solid black;
+    border-style: none none dotted none;
+    background-color:#FFE0B3;
+    height: 30px;
+    font-size: 12px;
+        font-family: Calibri-Bold_db;
+        color: black;
+    }
+    .gap{
+    background-color:#EBC7EB;
+    
+    }
+    .tee{
+     font-size: 12px;
+        font-family: Calibri-Italic_dl;
+        color: #7E7E7E;
+          text-align: center;
+    }
+    .heading2{background-color:#D3F8D3;
+font-size: 12px;
+    }
+    .a{
+        text-align: center;
+    }
 
 .box{
-    display: flex;
-    flex-direction: row;
-   justify-content: space-around;
+    display:inline-flex;
+    flex-direction:row;
+  justify-content: space-around;
    align-items: center;
    font-size: large;
 }
-/* Header part */
-div.box > p,img{  
-font-family: Arial, Helvetica, sans-serif;
-}
-
-.zerotable{
-    margin: 10px;
-    width:1450px;
-}
-hr{
+#line{
     border: 1px solid red;
-    margin-top: 10px;
+    margin-top: 15px;
   
    
 }
-
-/* First table*/
-.first{
-width: 150px;
-height: 50px;
-font-weight: bold;
-
+.ce{
+    text-align: center;
 }
-.second{
-width: 800px;
-font-weight: bold;
+#a,#b{
+width:580px;
 }
-/* Second table*/
-
-.a1{
-padding:0px;
-display: block;
-border: 3px solid black;
-border-style: none none dotted none;
-background-color: #F1C27D;
-height: 30px;
-}
-
-.b1{
-width: 700px;
-}
-.c1{
-width: 300px;
-
-}
-/*Third Table*/
-.in{
-text-align: center;
-}
-
-.T2,.T3,.T5,.T6{
-width: 200px;
-}
-/*Fourth Table*/
-table.Author{
-margin-left: auto; 
-margin-right: auto;
-}
-/*Five Table*/
-.first{
-width: 450px;
-height: 50px;
-
-}
-.second{
-width: 800px;
-}
-.tableh{
-font-weight: bold;
-width: 800px;
-background-color: cornflowerblue;
-}
-/*Six table*/
-.r,.u{
-width: 800px;
-text-align: center;
-
-}
-.tablehh{
-font-weight: bold;
-background-color:lightgreen;
-
-}
-.tableoverall{
-width: 1600px;
-height: 20px;
-font-weight: bold;
-background-color:lightgreen;
-}
-/**/
-.over{
-    height: 120px;
-}
-.over1{
+#five{
     height: 300px;
 }
-.over3{
-    width: 1450px;
-    height: 100px;
+#l,#m,#n{
+    width: 180px;
+    
 }
 
-
-.a2,.a3,.a5,.a6{
-width: 200px;
-}
-.hed{width: 550px;}
-
-.a4,.gapc{width: 120px;
-background-color: pink;}
-.a{
-padding:0px;
-display: block;
-border: 3px solid black;
-border-style: none none dotted none;
-background-color: #F1C27D;
-height: 20px;
-
-
-}
-.b{
-width: 700px;
-}
-.c{
-width: 300px;
-
-}
-span{
-    color: gray;
-    font-style: italic;
-}
-.Author{
-    width: 900px;
-    height: 20px;
-    align-items: center;
-}
-.signature{
-    width: 1450px;
-    height: 50px;
+#l1,#m1,#n1{
+    width: 180px;
+    
 }
